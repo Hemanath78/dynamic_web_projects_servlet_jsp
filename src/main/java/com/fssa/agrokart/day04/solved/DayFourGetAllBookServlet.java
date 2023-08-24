@@ -17,7 +17,7 @@ public class DayFourGetAllBookServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	public static final String LOGIN_HREF = "day04/solved/login.html";
-	public static final String LOGOUT_HREF = "/AgroKart/DayFourLogoutServlet";
+	public static final String LOGOUT_HREF = "DayFourLogoutServlet";
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {

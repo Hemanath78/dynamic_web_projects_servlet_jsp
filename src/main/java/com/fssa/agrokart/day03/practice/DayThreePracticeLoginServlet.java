@@ -17,7 +17,7 @@ public class DayThreePracticeLoginServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	public static final String LOGIN_HREF = "day03/practice/login.html";
-	public static final String HOME_HREF = "dayo3/practice/home.html";
+	public static final String HOME_HREF = "day03/practice/home.html";
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {

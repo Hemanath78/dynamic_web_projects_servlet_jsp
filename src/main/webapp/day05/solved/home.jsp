@@ -9,7 +9,7 @@
 <body>
 	<h1>Welcome to Book Web App</h1>
 
-	<%!public static final String LOGOUT_SERVLET = "/AgroKart/DayFiveSolvedLogoutServlet";%>
+	<%!public static final String LOGOUT_SERVLET = "DayFiveSolvedLogoutServlet";%>
 	<%!public static final String LOGIN_HREF = "day05/solved/login.jsp";%>
 
 	<%

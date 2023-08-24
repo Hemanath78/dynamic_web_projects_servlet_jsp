@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<%!public static final String SELECT_ALL_USERS = "/AgroKart/DayFivePracticeGetAllUsers";%>
+	<%!public static final String SELECT_ALL_USERS = "DayFivePracticeGetAllUsers";%>
 
 	<h3>Test the user list page</h3>
 
