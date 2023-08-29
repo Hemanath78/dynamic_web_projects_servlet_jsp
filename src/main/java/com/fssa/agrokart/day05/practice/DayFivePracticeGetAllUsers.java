@@ -31,7 +31,9 @@ public class DayFivePracticeGetAllUsers extends HttpServlet {
 		// set the list of users in the request scope and create a display_all_users.jsp
 		// file
 		request.setAttribute("usersList", users);
+		
 		RequestDispatcher dis = request.getServletContext().getRequestDispatcher(DISPLAY_ALL_USERS);
+		
 		dis.forward(request, response);
 		// to print the details in HTML Tabular format. DO NOT print the passwords
 	}

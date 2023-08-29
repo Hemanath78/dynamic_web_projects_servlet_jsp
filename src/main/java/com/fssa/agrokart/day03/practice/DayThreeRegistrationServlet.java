@@ -24,6 +24,7 @@ public class DayThreeRegistrationServlet extends HttpServlet {
 			throws ServletException, IOException {
 
 		response.setContentType("text/html;charset=UTF-8");
+		
 		PrintWriter out = response.getWriter();
 
 		String username = request.getParameter("username");
@@ -45,8 +46,10 @@ public class DayThreeRegistrationServlet extends HttpServlet {
 		}
 
 		if (isValid) {
+			
 			RequestDispatcher dispatcher = request.getRequestDispatcher(LOGIN_HREF);
 			dispatcher.forward(request, response);
+			
 		} else {
 
 			response.sendRedirect(REGISTER_HREF);

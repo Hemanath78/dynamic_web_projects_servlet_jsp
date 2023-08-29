@@ -27,7 +27,8 @@ public class DayThreePracticeLoginServlet extends HttpServlet {
 
 		String regEmail = request.getParameter("email");
 		String regPassword = request.getParameter("password");
-
+		
+	
 		String loginEmail = request.getParameter("login_email");
 		String loginPassword = request.getParameter("login_password");
 
